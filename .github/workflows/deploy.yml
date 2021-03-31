@@ -21,4 +21,6 @@ jobs:
     - run: yarn run test --runInBand --no-cache
       env:
         CI: true
+
+    - run: echo fs.inotify.max_user_watches= 65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
     - run: yarn deploy
