@@ -27,4 +27,10 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - run: echo fs.inotify.max_user_watches= 65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-    - run: yarn deploy
+
+    - run: yarn build
+
+    - uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: public
