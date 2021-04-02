@@ -3,7 +3,7 @@ title: "First Post"
 date: "2021-03-31"
 template: "post"
 draft: false
-slug: ""
+slug: "2021-03-31-first-post"
 category: "misc"
 tags:
   - "misc"

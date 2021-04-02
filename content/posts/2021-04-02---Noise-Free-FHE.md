@@ -3,14 +3,15 @@ title: "Noise-Free FHE"
 date: "2021-04-02"
 template: "post"
 draft: false
-slug: ""
+slug: "2021-04-02-noise-free-fhe"
 category: "cryptography"
 tags:
-- "cryptography"
-- "FHE"
+  - "cryptography"
+  - "FHE"
 description: "Noise-FreeなFHEについて"
 socialImage: "me.png"
 ---
+
 # NoiseなFHE
 NoiseなFHEっていうのはすなわち格子暗号をベースにしてるFHEのこと．
 
