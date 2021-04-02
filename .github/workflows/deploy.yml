@@ -11,10 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup git user
-      run: |
-        git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
-        git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
     - name: Use Node.js 12.x
       uses: actions/setup-node@v2
       with:
@@ -25,6 +21,9 @@ jobs:
     - run: yarn run test --runInBand --no-cache
       env:
         CI: true
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - run: echo fs.inotify.max_user_watches= 65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
     - run: yarn deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
