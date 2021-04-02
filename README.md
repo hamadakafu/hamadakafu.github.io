@@ -1,1 +1,2 @@
+- slug: httpのpostのパスに使われるかぶるのはNG
 
