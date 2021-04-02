@@ -3,7 +3,8 @@
 <url> <loc>https://hamadakafu.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hamadakafu.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hamadakafu.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hamadakafu.github.io/posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hamadakafu.github.io/posts/2021-03-31-first-post</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hamadakafu.github.io/posts/2021-04-02-noise-free-fhe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hamadakafu.github.io/tag/fhe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hamadakafu.github.io/tag/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hamadakafu.github.io/tag/cryptography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
