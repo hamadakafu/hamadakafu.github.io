@@ -11,6 +11,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - run: git config --global credential.helper wincred
     - name: Use Node.js 12.x
       uses: actions/setup-node@v2
       with:
@@ -25,5 +26,3 @@ jobs:
 
     - run: echo fs.inotify.max_user_watches= 65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
     - run: yarn deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
