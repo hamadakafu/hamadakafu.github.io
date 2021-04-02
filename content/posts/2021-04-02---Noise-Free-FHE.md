@@ -44,6 +44,7 @@ Noise-FreeなFHEとして
 Ciphertextにしかアクセスすることができず一番弱い攻撃
 
 modernな暗号はだいたいこれに耐性がある．
+
 Modern crypto schema is immune from the COA.
 
 ## wCOA (weak COA)
@@ -68,9 +69,14 @@ CPA2と同じ
 
 # References
 [^TFHE] https://eprint.iacr.org/2018/421.pdf
+
 [^YAG] https://eprint.iacr.org/2017/763.pdf
+
 [^LIU] https://eprint.iacr.org/2015/468.pdf
+
 [^WANG] https://webpages.uncc.edu/yonwang/papers/octonionAlgebra.pdf
+
 [^SED] https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9134724
+
 attack model https://en.wikipedia.org/wiki/Attack_model
 
