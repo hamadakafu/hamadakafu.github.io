@@ -1,1 +1,3 @@
-# README
+# Headline
+
+> An awesome project.
